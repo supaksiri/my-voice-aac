@@ -1,0 +1,11 @@
+{
+  "name": "My Voice AAC – English Communication",
+  "short_name": "My Voice AAC",
+  "description": "English-only picture-based AAC communication and optional learning",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#f3f5fc",
+  "theme_color": "#5864c9",
+  "lang": "en"
+}
