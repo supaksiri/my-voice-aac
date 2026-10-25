@@ -1,5 +1,5 @@
-const CACHE = 'my-voice-aac-v2-20261025';
-const APP_SHELL = ['./', './index.html', './manifest.webmanifest'];
+const CACHE = 'my-voice-aac-v2-images-20261025';
+const APP_SHELL = ['./', './index.html', './manifest.webmanifest', './cards.js'];
 self.addEventListener('install', event => {
   event.waitUntil(caches.open(CACHE).then(cache => cache.addAll(APP_SHELL)));
   self.skipWaiting();
